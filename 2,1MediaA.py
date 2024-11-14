@@ -1,5 +1,7 @@
 print("MEDIA DE ALGUMA COISA AI")
 
+nome = input("primeiro, qual seu nome: ")
+
 a = float(input("digite sua primeira nota: "))
 b = float(input("digite sua segunda nota: "))
 c = float(input("digite sua terceira nota: "))
@@ -9,4 +11,8 @@ soma = a+b+c+d
 
 media = soma/4
 
-print("\n ta ai sua media:", media)
+if media >= 5.0:
+    print("Ola", nome ,"a sua media é", media ,"continue assim, vc esta indo bem:)")
+
+else:
+    print("Ola", nome ,"essa é sua media", media ,"parece que vc precisa melhorar:/")

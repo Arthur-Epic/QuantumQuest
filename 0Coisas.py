@@ -1,4 +1,5 @@
 #print ("descending to hell")
+
 a = input("\n tu quer fazer Divisao ou Multiplicacao? ")
 
 if a == "divisao":
