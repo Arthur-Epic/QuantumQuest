@@ -1,10 +1,10 @@
 #print ("descending to hell")
 
-n = int(input("digite um numero: "))
+n_matricula = int(input("digite um numero: "))
 
-if n % 2 == 0:
-    print("par")
+if n_matricula % 2 == 0:
+    print("Voce esta no time azul")
 
 else:
-    print("impar")
+    print("Voce esta no time vermelho")
 
